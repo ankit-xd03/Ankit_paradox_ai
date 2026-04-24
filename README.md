@@ -60,13 +60,6 @@ MAPE broken down by hour of day to identify when the model struggles most
 6. Feature Importance
 The best model's feature_importances_ were used to identify the key drivers of grid demand. Recent lag features (especially lag_1h, lag_24h, lag_168h) and rolling averages consistently ranked among the top predictors, confirming that recent historical demand is the strongest signal for short-term forecasting.
 
-Repository Structure
-├── paradox_notebook.ipynb     # End-to-end pipeline notebook
-├── README.md                  # This file
-└── dataset/
-    ├── PGCB_date_power_demand.xlsx
-    ├── weather_data.xlsx
-    └── economic_full_1.csv
 How to Run
 
 Install dependencies:
