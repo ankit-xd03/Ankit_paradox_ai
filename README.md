@@ -2,6 +2,7 @@
 paradox_notebook.ipynb
 
 Overview
+
 This repository contains the complete machine learning pipeline for the Predictive Paradox project. The pipeline is designed to build a highly robust predictive model using advanced feature engineering, comprehensive data cleaning, and gradient boosting frameworks (XGBoost/CatBoost). A major focus of this project is model interpretability and understanding the underlying drivers of the target variable.
 
 Interpretation & Reporting
